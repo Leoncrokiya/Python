@@ -1,8 +1,8 @@
 import random
 
-slayer = ["Tanjiro", "Rion", "Zenitsu", "Inosuke", "Kanao"]
+slayer = ["Tanjiro", "Rion", "Zenitsu", "Inosuke"]
 
-upper_rank = ["Akaza", "Doma", "Nakime", "Kokushibo", "Kaigaku"]
+upper_rank = ["Akaza", "Doma", "Kokushibo", "Kaigaku"]
 
 for fight in range(len(slayer)):
     s = random.choice(slayer)
