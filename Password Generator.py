@@ -40,14 +40,14 @@ def get_password_length():
 
             print("Password must be at least 8 characters long.")
             print()
-            # print("=" * 100)
-            # print()
+            # print("=" * 100) #user can decide to remove the comment
+            # print() #user can decide to remove the comment
 
         except ValueError:
             print("Please enter a whole number.")
             print()
-            # print("=" * 100)
-            # print()
+            # print("=" * 100) #user can decide to remove the comment
+            # print() #user can decide to remove the comment
 
 
 if __name__ == "__main__":
